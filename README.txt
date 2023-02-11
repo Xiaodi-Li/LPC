@@ -1,5 +1,16 @@
-The code for the paper "LPC: A Logits and Parameter Calibration Framework for Continual Learning." 
-https://aclanthology.org/2022.findings-emnlp.529/
+# LPC
+
+This repository contains the code for [("LPC: A Logits and Parameter Calibration Framework for Continual Learning.")](https://aclanthology.org/2022.findings-emnlp.529/) 
+
+```
+@inproceedings{li2022lpc,
+  title={LPC: A Logits and Parameter Calibration Framework for Continual Learning},
+  author={Li, Xiaodi and Wang, Zhuoyi and Li, Dingcheng and Khan, Latifur and Thuraisingham, Bhavani},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2022},
+  pages={7142--7155},
+  year={2022}
+}
+```
 
 Environment:
 
