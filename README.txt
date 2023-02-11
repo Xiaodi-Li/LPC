@@ -1,4 +1,5 @@
-The code for the paper "LPC: A Logits and Parameter Calibration Framework for Continual Learning.", https://aclanthology.org/2022.findings-emnlp.529/
+The code for the paper "LPC: A Logits and Parameter Calibration Framework for Continual Learning." 
+https://aclanthology.org/2022.findings-emnlp.529/
 
 Environment:
 
