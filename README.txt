@@ -1,8 +1,8 @@
-# LPC
+LPC
 
-This repository contains the code for [("LPC: A Logits and Parameter Calibration Framework for Continual Learning.")](https://aclanthology.org/2022.findings-emnlp.529/) 
+This repository contains the code for "LPC: A Logits and Parameter Calibration Framework for Continual Learning."
+https://aclanthology.org/2022.findings-emnlp.529/ 
 
-```
 @inproceedings{li2022lpc,
   title={LPC: A Logits and Parameter Calibration Framework for Continual Learning},
   author={Li, Xiaodi and Wang, Zhuoyi and Li, Dingcheng and Khan, Latifur and Thuraisingham, Bhavani},
@@ -10,7 +10,6 @@ This repository contains the code for [("LPC: A Logits and Parameter Calibration
   pages={7142--7155},
   year={2022}
 }
-```
 
 Environment:
 
@@ -101,11 +100,3 @@ python run_glue_with_LPC.py \
   --update_epoch 1 \
   --logits_calibraion_degree 1.0 \
   --eval_all_checkpoints 
-
-
-
-
-
-
-
-
