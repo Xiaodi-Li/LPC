@@ -1,6 +1,6 @@
 # LPC
 
-This repository contains the code for [("LPC: A Logits and Parameter Calibration Framework for Continual Learning.")](https://aclanthology.org/2022.findings-emnlp.529/) 
+This repository contains the code for ["LPC: A Logits and Parameter Calibration Framework for Continual Learning."](https://aclanthology.org/2022.findings-emnlp.529/) 
 
 ```
 @inproceedings{li2022lpc,
