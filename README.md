@@ -33,9 +33,9 @@ download_glue_data.py: this file is the script to download GLUE dataset.
 
 ## Run GLUE tasks:
 
-```
 With BERT-base pre-trained model:
 
+```
 export GLUE_DIR=/path/to/glue
 export TASK_NAME=CoLA
 
