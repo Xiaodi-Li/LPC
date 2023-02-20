@@ -70,7 +70,7 @@ python run_glue_with_LPC.py \
   --eval_all_checkpoints
 ```
 
-## With ALBERT-xxlarge pre-trained model:
+With ALBERT-xxlarge pre-trained model:
 
 ```
 export GLUE_DIR=/path/to/glue
