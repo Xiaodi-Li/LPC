@@ -1,8 +1,8 @@
-LPC
+# LPC
 
-This repository contains the code for "LPC: A Logits and Parameter Calibration Framework for Continual Learning."
-https://aclanthology.org/2022.findings-emnlp.529/ 
+This repository contains the code for [("LPC: A Logits and Parameter Calibration Framework for Continual Learning.")](https://aclanthology.org/2022.findings-emnlp.529/) 
 
+```
 @inproceedings{li2022lpc,
   title={LPC: A Logits and Parameter Calibration Framework for Continual Learning},
   author={Li, Xiaodi and Wang, Zhuoyi and Li, Dingcheng and Khan, Latifur and Thuraisingham, Bhavani},
@@ -10,14 +10,17 @@ https://aclanthology.org/2022.findings-emnlp.529/
   pages={7142--7155},
   year={2022}
 }
+```
 
-Environment:
+## Environment:
 
+```
 python >= 3.6
 pytorch >= 1.0.0
 transformers >= 2.5.1
+```
 
-Files:
+## Files:
 
 LPC.py: this file includes the LPC optimizer implementation, which is modified from AdamW optimizer implementation optimization.py by Huggingface Transformers.
 
@@ -28,8 +31,9 @@ run_glue_with_LPC.py: this file is an example to run GLUE tasks with LPC optimiz
 download_glue_data.py: this file is the script to download GLUE dataset.
 
 
-Run GLUE tasks:
+## Run GLUE tasks:
 
+```
 With BERT-base pre-trained model:
 
 export GLUE_DIR=/path/to/glue
@@ -64,9 +68,11 @@ python run_glue_with_LPC.py \
   --update_epoch 1 \
   --logits_calibraion_degree 1.0 \
   --eval_all_checkpoints
+```
 
-With ALBERT-xxlarge pre-trained model:
+## With ALBERT-xxlarge pre-trained model:
 
+```
 export GLUE_DIR=/path/to/glue
 export TASK_NAME=CoLA
 
@@ -100,3 +106,4 @@ python run_glue_with_LPC.py \
   --update_epoch 1 \
   --logits_calibraion_degree 1.0 \
   --eval_all_checkpoints 
+```
